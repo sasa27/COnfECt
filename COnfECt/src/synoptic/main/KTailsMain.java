@@ -66,7 +66,14 @@ public class KTailsMain extends AbstractMain {
     	 * 1 = weak composition
     	 * 2 = strong composition 
     	 */
-    	int composition = 2;
+    	int composition = 1;
+    	System.out.println(args[args.length - 1]);
+    	if (args[args.length - 1].equals("strict")) {
+    		composition = 0;
+    	}
+    	else if (args[args.length - 1].equals("strong")) {
+    		composition = 2;
+    	}
     	double similarity1 = 0.25; // clustering initial traces
     	double similarity2 = 0.4; // clustering CEFSMs
         String[] traces = getTraces(args);
@@ -220,8 +227,6 @@ public class KTailsMain extends AbstractMain {
     	        					EventNode label2 = new EventNode(label);
     	        					Partition label3 = new Partition(label2);
     	        					tree.add(label3);
-    	        					System.out.println(p.getEType().toString());
-    	        					System.out.println(label3.getEType().toString());
     	        					Bisimulation.merge(tree, label3, p);
         						}
         						else {
