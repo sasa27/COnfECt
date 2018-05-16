@@ -23,4 +23,4 @@ Results are generated in the **COnfECt/COnfECt** folder.
 
 ## TODO
 
-[ ] put the correlation coefficient and similarity coefficient as arguments
+- [ ] put the correlation coefficient and similarity coefficient as arguments
