@@ -10,9 +10,9 @@ This is the first implementation of the COnfECt method, used for preliminary tes
 
 ## Usage
 
-Put all your traces in the folder **COnfECt/traces**. If the folder **COnfECt/COnfECt** does not exist, make it.
+Put all your traces in the folder **COnfECt/traces**. If the folder **COnfECt/COnfECt** does not exist, make it. It have to be empty.
 
-Go into the **COnfECt/** folder and execute the script **exec.sh** with the synchronisation strategy as argument (```strict```, ```weak```, or ```strong```):
+Go into the **COnfECt/** folder and execute the script **exec.sh** with the synchronisation strategy as arguments (```strict```, ```weak```, or ```strong```):
 
 ```
 cd COnfECt
