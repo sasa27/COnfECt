@@ -8,3 +8,15 @@ This is the first implementation of the COnfECt method, used for preliminary tes
 
 **COnfECt/** contains the implementation of the COnfECt method.
 
+## Usage
+
+Put all your traces in the folder **COnfECt/traces**. If the folder **COnfECt/COnfECt** does not exist, make it.
+
+Go into the **COnfECt/** folder and execute the script **exec.sh** with the synchronisation strategy as argument (```strict```, ```weak```, or ```strong```):
+
+```
+cd COnfECt
+./exec.sh strict
+```
+
+Results are generated in the **COnfECt/COnfECt** folder.
