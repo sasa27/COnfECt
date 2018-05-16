@@ -18,6 +18,24 @@ In this step, we try to see if two consecutive events in a trace are due to the 
 For that we calculate a *Correlation Coeficient* for each pair of events, and we define a treshold above we consider that two components are due to the same component (we say that they have a strong correlation).
 This *Correlation Coeficient* is used to separate each trace into many traces, containing events of only one component.
 
+Example:
+```
+Trace		
+/devices /json.htm(idx:=115,svalue:=15.00) Response(status:=200) Response(status:=200,data:=[1]) 
+/json.htm(idx:=115,svalue:=16.00) Response(status:=200) /devices Response(status:=200,data:=[1]) 
+/hardware Response(status:=200,data:=[2]) /config /json.htm(idx:=0,switchcmd:=On) Response(
+status:=200) Response(status:=200,data:=[2]) /tools Response(status:=200,data:=[3])
+
+STraces = {
+T1 {/devices call_C2 return_C2 Response(status:=200,data:=[1]) call_C3 return_C3 /devices 
+	Response(status:=200,data:=[1]) /hardware Response(status:=200,data:=[2]) /config call_C4 
+	return_C4 Response(status:=200,data:=[2]) /tools Response(status:=200,data:=[3])}
+T2 {call_C2 /json.htm(idx:=115,svalue:=15.00) Response(status:=200) return_C2}
+T3 {call_C3 /json.htm(idx:=115,svalue:=16.00) Response(status:=200) return_C3}
+T4 {call_C4 /json.htm(idx:=0,switchcmd:=On) Response(status:=200) return_C4} }
+```
+
+
 Each trace obtained with this step will produce a LTS with the first step of KTails.
 
 ### LTS Synchronisation
@@ -26,9 +44,13 @@ The goal of this step is to join LTSs that contain similar events, and model beh
 
 Three strategies are implemented:
 - the **Strict** srategy, where we want limit the over-generalisation. we do not join LTSs, and we cannot repetitively call an other component.
+![Alt text](figures/Strict.jpg "Example with Strict synchronisation")
 
 - the **Weak** strategy, where we want to reduce the number of components. We join LTSs, and allow repetitive call of an other component.
+![Alt text](figures/Weak.jpg "Example with Weak synchronisation")
+
 - the **Strong** strategy, where we obtained a more general model. We joines LTSs, and each LTS can call any other LTS anytime.
+![Alt text](figures/Strong.jpg "Example with Strong synchronisation")
 
 Then the models are genralised with the second step of KTails, to obtain the final LTSs.
 
