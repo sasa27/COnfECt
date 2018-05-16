@@ -1,0 +1,21 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  4 [label="4"];
+  5 [label="TERMINAL",shape=diamond];
+  9 [label="9"];
+  10 [label="10"];
+  12 [label="12"];
+0->1  [label="?server(Protocol;Host;Dest;mode)"];
+0->4  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+4->1  [label="?server(Protocol;Host;Dest;mode)"];
+0->12  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+0->0  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+0->10  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+0->9  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+0->5  [label="?server(Protocol;Host;Dest;mode)"]
+9->5  [label="?server(Protocol;Host;Dest;mode)"]
+10->5  [label="?server(Protocol;Host;Dest;mode)"]
+0->5  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+12->5  [label="?server(Protocol;Host;Dest;mode)"]
+}

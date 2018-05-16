@@ -1,0 +1,7 @@
+call_T81
+?/wifiscanner(Protocol;Verb;Host;Dest;Uri)
+?/wifiscanner(Protocol;Verb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T82
+return_T82
+return_T81

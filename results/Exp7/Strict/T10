@@ -1,0 +1,4 @@
+call_T10
+!Response(Protocol;Host;Dest;status;response;data)
+?/(ProtocolVerb;Host;Dest;Uri)
+return_T10

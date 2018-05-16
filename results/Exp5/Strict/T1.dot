@@ -1,0 +1,16 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  6 [label="6"];
+  7 [label="7"];
+  8 [label="8"];
+0->3 [label="?server(Protocol;Host;Dest;mode)"];
+3->4 [label="call_T67"];
+4->1 [label="return_T67"];
+0->6 [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+6->7 [label="?server(Protocol;Host;Dest;mode)"];
+7->8 [label="call_T79"];
+8->1 [label="return_T79"];
+}

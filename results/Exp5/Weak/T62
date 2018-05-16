@@ -1,0 +1,8 @@
+call_T62
+?/(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data
+?/config(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T63
+return_T63
+return_T62

@@ -1,0 +1,5 @@
+call_T40
+!symetric active(Protocol;Host;Dest;mode;timestamp)
+call_T41
+return_T41
+return_T40

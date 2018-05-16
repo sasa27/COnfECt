@@ -1,0 +1,5 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+0->1  [label="?/(ProtocolVerb;Host;Dest;Uri)"]
+}

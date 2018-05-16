@@ -1,0 +1,27 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  7 [label="7"];
+  10 [label="10"];
+  13 [label="13"];
+0->3 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+3->7 [label="?Response(Protocol;Host;Dest;status;response)"];
+3->4 [label="?Response(Protocol;Host;Dest;status;response)"];
+4->13 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+4->5 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+4->3 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+5->10 [label="?Response(Protocol;Host;Dest;status;response)"];
+5->6 [label="?Response(Protocol;Host;Dest;status;response)"];
+6->5 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;switchcmd)"];
+6->3 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;switchcmd)"];
+7->1 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+0->6 [label="?Response(Protocol;Host;Dest;status;response)"];
+10->1 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;switchcmd)"];
+0->4 [label="?Response(Protocol;Host;Dest;status;response)"];
+13->1 [label="?Response(Protocol;Host;Dest;status;response)"];
+0->5 [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"];
+}

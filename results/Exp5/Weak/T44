@@ -1,0 +1,7 @@
+call_T44
+?/wifiscanner(ProtocolVerb;Host;Dest;Uri)
+?/wifiscanner(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T45
+return_T45
+return_T44

@@ -1,0 +1,15 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  7 [label="7"];
+  8 [label="8"];
+3->4  [label="?/wifiscanner(ProtocolVerb;Host;Dest;Uri)"]
+4->5  [label="?/wifiscanner(ProtocolVerb;Host;Dest;Uri)"]
+5->6  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+6->7  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+7->8  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+8->1  [label="?/hardware(ProtocolVerb;Host;Dest;Uri)"]
+}

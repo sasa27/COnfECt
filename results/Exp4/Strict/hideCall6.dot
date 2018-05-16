@@ -1,0 +1,34 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  6 [label="6"];
+  9 [label="9"];
+  12 [label="12"];
+  13 [label="13"];
+  14 [label="14"];
+  15 [label="15"];
+  16 [label="16"];
+  17 [label="17"];
+  20 [label="20"];
+  21 [label="21"];
+  22 [label="22"];
+  25 [label="25"];
+  26 [label="26"];
+  27 [label="27"];
+3->6  [label="?/(Protocol;Verb;Host;Dest;Uri)"]
+6->9  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+9->12  [label="?/devices(Protocol;Verb;Host;Dest;Uri)"]
+12->13  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+13->14  [label="?/devices(Protocol;Verb;Host;Dest;Uri)"]
+14->15  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+15->16  [label="?/hardware(Protocol;Verb;Host;Dest;Uri)"]
+16->17  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+17->20  [label="?/config(Protocol;Verb;Host;Dest;Uri)"]
+20->21  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+21->22  [label="?/tools(Protocol;Verb;Host;Dest;Uri)"]
+22->25  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+25->27  [label="?/log(Protocol;Verb;Host;Dest;Uri)"]
+25->26  [label="?/log(Protocol;Verb;Host;Dest;Uri)"]
+26->25  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+27->1  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+}

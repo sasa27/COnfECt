@@ -1,0 +1,7 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  6 [label="6"];
+3->6  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"]
+6->1  [label="?server(Protocol;Host;Dest;mode)"]
+}

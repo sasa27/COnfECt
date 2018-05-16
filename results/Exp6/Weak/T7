@@ -1,0 +1,3 @@
+call_T7
+!symetric active(Protocol;Host;Dest;mode;timestamp)
+return_T7

@@ -1,0 +1,17 @@
+call_T98
+?/devices(ProtocolVerb;Host;Dest;Uri;index;page)
+call_T99
+return_T99
+!Response(Protocol;Host;Dest;status;response;data)
+?/devices(ProtocolVerb;Host;Dest;Uri;setpage)
+call_T101
+return_T101
+!Response(Protocol;Host;Dest;status;response;data)
+?/config(ProtocolVerb;Host;Dest;Uri)
+call_T103
+return_T103
+!Response(Protocol;Host;Dest;status;response;data)
+?/(ProtocolVerb;Host;Dest;Uri)
+call_T104
+return_T104
+return_T98

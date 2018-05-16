@@ -1,0 +1,6 @@
+call_T5
+?/(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T6
+return_T6
+return_T5

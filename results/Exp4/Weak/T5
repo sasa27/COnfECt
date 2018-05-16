@@ -1,0 +1,9 @@
+call_T5
+?/login(Protocol;Verb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+?/favicon.ico(Protocol;Verb;Host;Dest;Uri)
+?/favicon.ico(Protocol;Verb;Host;Dest;Uri)
+?/login(Protocol;Verb;Host;Dest;Uri)
+call_T6
+return_T6
+return_T5

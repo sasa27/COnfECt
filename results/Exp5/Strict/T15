@@ -1,0 +1,6 @@
+call_T15
+!symetric active(Protocol;Host;Dest;mode;timestamp)
+?server(Protocol;Host;Dest;mode)
+call_T16
+return_T16
+return_T15

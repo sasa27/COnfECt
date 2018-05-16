@@ -1,0 +1,6 @@
+call_T28
+!symetric active(Protocol;Host;Dest;mode;timestamp)
+?server(Protocol;Host;Dest;mode)
+call_T29
+return_T29
+return_T28

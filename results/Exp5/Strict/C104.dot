@@ -1,0 +1,13 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+0->3  [label="call_C104"];
+3->4 [label="?server(Protocol;Host;Dest;mode)"];
+4->5  [label="call_C105"];
+5->6  [label="return_C105"];
+6->1  [label="return_C104"];
+}

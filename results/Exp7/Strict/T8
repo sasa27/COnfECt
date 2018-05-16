@@ -1,0 +1,7 @@
+call_T8
+?/login(ProtocolVerb;Host;Dest;Uri;password)
+!Response(Protocol;Host;Dest;status;response;data)
+?/(ProtocolVerb;Host;Dest;Uri)
+call_T9
+return_T9
+return_T8

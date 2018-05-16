@@ -1,0 +1,35 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  4 [label="4"];
+  5 [label="5"];
+  8 [label="8"];
+  9 [label="9"];
+  10 [label="10"];
+  13 [label="13"];
+  14 [label="14"];
+  15 [label="15"];
+  16 [label="16"];
+  19 [label="19"];
+  22 [label="22"];
+  25 [label="25"];
+  26 [label="26"];
+  27 [label="27"];
+3->4  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+4->5  [label="?/tools(ProtocolVerb;Host;Dest;Uri)"]
+5->8  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+8->9  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+8->25  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+9->10  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+9->19  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+10->13  [label="?/devices(ProtocolVerb;Host;Dest;Uri;index;page)"]
+13->14  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+14->15  [label="?/devices(ProtocolVerb;Host;Dest;Uri;index;page;taskdevicenumber;taskdevicename;taskdeviceid;taskdevicepin1;edit;page)"]
+15->16  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+16->9  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+19->22  [label="?/devices(ProtocolVerb;Host;Dest;Uri;index;page)"]
+22->8  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+25->26  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+26->27  [label="?/hardware(ProtocolVerb;Host;Dest;Uri)"]
+27->1  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+}

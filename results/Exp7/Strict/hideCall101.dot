@@ -1,0 +1,17 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  6 [label="6"];
+  7 [label="7"];
+  10 [label="10"];
+  11 [label="11"];
+  14 [label="14"];
+  15 [label="15"];
+3->6  [label="?/devices(ProtocolVerb;Host;Dest;Uri;index;page)"]
+6->7  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+7->10  [label="?/devices(ProtocolVerb;Host;Dest;Uri;setpage)"]
+10->11  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+11->14  [label="?/config(ProtocolVerb;Host;Dest;Uri)"]
+14->15  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+15->1  [label="?/(ProtocolVerb;Host;Dest;Uri)"]
+}

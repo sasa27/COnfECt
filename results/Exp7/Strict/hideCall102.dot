@@ -1,0 +1,7 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  6 [label="6"];
+3->6  [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"]
+6->1  [label="?Response(Protocol;Host;Dest;status;response)"]
+}

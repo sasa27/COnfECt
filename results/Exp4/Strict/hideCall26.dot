@@ -1,0 +1,5 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+3->1  [label="!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;svalue)"]
+}

@@ -1,0 +1,4 @@
+call_T102
+!symetric active(Protocol;Host;Dest;mode;timestamp)
+?server(Protocol;Host;Dest;mode)
+return_T102

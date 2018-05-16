@@ -1,0 +1,36 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  93 [label="93"];
+  94 [label="94"];
+  95 [label="95"];
+  96 [label="96"];
+  101 [label="101"];
+0->3  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+3->1  [label="?server(Protocol;Host;Dest;mode)"];
+4->5  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+5->93  [label="?server(Protocol;Host;Dest;mode)"];
+6->93  [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+0->4  [label="call_C2"];
+0->6  [label="call_C2"];
+0->5  [label="call_C2"];
+93->1  [label="return_C2"];
+94->93  [label="return_C"];
+93->94  [label="call_C"];
+95->1  [label="return_C"];
+1->95  [label="call_C"];
+96->3  [label="return_C"];
+3->96  [label="call_C"];
+96->5  [label="return_C"];
+5->96  [label="call_C"];
+101->0  [label="return_C"];
+0->101  [label="call_C"];
+101->6  [label="return_C"];
+6->101  [label="call_C"];
+101->4  [label="return_C"];
+4->101  [label="call_C"];
+}

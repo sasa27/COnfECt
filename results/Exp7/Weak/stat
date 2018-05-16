@@ -1,0 +1,12 @@
+181 trace files in Strace, and 3 dot file generated
+
+COnfECt/C1.dot :26 states, and 46 transitions
+COnfECt/hideCall1.dot :12 states, and 22 transitions
+38 states in total and 68 transitions
+COnfECt/C2.dot :22 states, and 33 transitions
+COnfECt/hideCall2.dot :8 states, and 14 transitions
+68 states in total and 115 transitions
+COnfECt/C3.dot :110 states, and 207 transitions
+COnfECt/hideCall3.dot :76 states, and 133 transitions
+254 states in total and 455 transitions
+254 states in total and 455 transitions

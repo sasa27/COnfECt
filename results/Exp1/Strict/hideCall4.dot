@@ -1,0 +1,35 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  7 [label="7"];
+  8 [label="8"];
+  9 [label="9"];
+  10 [label="10"];
+  11 [label="11"];
+  12 [label="12"];
+  13 [label="13"];
+  14 [label="14"];
+  15 [label="15"];
+  16 [label="16"];
+3->4  [label="?/login(ProtocolVerb;Host;Dest;Uri;password)"]
+4->5  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+5->6  [label="?/(ProtocolVerb;Host;Dest;Uri)"]
+5->4  [label="?/(ProtocolVerb;Host;Dest;Uri)"]
+6->7  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+7->6  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+7->8  [label="?/devices(ProtocolVerb;Host;Dest;Uri)"]
+8->9  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+9->10  [label="?/hardware(ProtocolVerb;Host;Dest;Uri)"]
+10->11  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+11->12  [label="?/config(ProtocolVerb;Host;Dest;Uri)"]
+12->13  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+13->16  [label="?/tools(ProtocolVerb;Host;Dest;Uri)"]
+13->14  [label="?/tools(ProtocolVerb;Host;Dest;Uri)"]
+14->15  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+15->12  [label="?/log(ProtocolVerb;Host;Dest;Uri)"]
+15->14  [label="?/log(ProtocolVerb;Host;Dest;Uri)"]
+16->1  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+}

@@ -1,0 +1,6 @@
+call_T25
+!/json.htm(Protocol;Host;Dest;Uri;type;param;idx;switchcmd)
+?Response(Protocol;Host;Dest;status;response)
+call_T26
+return_T26
+return_T25

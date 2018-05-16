@@ -1,0 +1,13 @@
+call_T7
+?/login(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+?/favicon.ico(ProtocolVerb;Host;Dest;Uri)
+?/favicon.ico(ProtocolVerb;Host;Dest;Uri)
+?/login(ProtocolVerb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T8
+return_T8
+?/devices(ProtocolVerb;Host;Dest;Uri)
+call_T18
+return_T18
+return_T7

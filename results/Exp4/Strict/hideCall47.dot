@@ -1,0 +1,9 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  4 [label="4"];
+  5 [label="5"];
+3->4  [label="?/wifiscanner(Protocol;Verb;Host;Dest;Uri)"]
+4->5  [label="?/wifiscanner(Protocol;Verb;Host;Dest;Uri)"]
+5->1  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+}

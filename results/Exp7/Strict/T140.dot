@@ -1,0 +1,11 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+0->3 [label="call_T137"];
+3->4 [label="!symetric active(Protocol;Host;Dest;mode;timestamp)"];
+4->5 [label="?server(Protocol;Host;Dest;mode)"];
+5->1 [label="return_T137"];
+}

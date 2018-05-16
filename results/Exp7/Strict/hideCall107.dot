@@ -1,0 +1,21 @@
+digraph G {
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="INITIAL",shape=box];
+  6 [label="6"];
+  7 [label="7"];
+  10 [label="10"];
+  11 [label="11"];
+  14 [label="14"];
+  15 [label="15"];
+  16 [label="16"];
+  17 [label="17"];
+3->6  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+6->7  [label="?/config(ProtocolVerb;Host;Dest;Uri)"]
+7->10  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+10->11  [label="?/config(ProtocolVerb;Host;Dest;Uri;name;password;ssid;apkey;unit;protocol;usedns;controllerip;controllerport;controlleruser;controllerpassword;delay;espip;espgateway;espsubnet;espdns)"]
+11->14  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+14->15  [label="?/tools(ProtocolVerb;Host;Dest;Uri)"]
+15->16  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+16->17  [label="?/update(ProtocolVerb;Host;Dest;Uri)"]
+17->1  [label="!Response(Protocol;Host;Dest;status;response;data)"]
+}

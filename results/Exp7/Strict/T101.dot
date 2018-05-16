@@ -1,0 +1,37 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  7 [label="7"];
+  8 [label="8"];
+  9 [label="9"];
+  10 [label="10"];
+  11 [label="11"];
+  12 [label="12"];
+  13 [label="13"];
+  14 [label="14"];
+  15 [label="15"];
+  16 [label="16"];
+  17 [label="17"];
+  18 [label="18"];
+0->3 [label="call_T98"];
+3->4 [label="?/devices(ProtocolVerb;Host;Dest;Uri;index;page)"];
+4->5 [label="call_T99"];
+5->6 [label="return_T99"];
+6->7 [label="!Response(Protocol;Host;Dest;status;response;data)"];
+7->8 [label="?/devices(ProtocolVerb;Host;Dest;Uri;setpage)"];
+8->9 [label="call_T101"];
+9->10 [label="return_T101"];
+10->11 [label="!Response(Protocol;Host;Dest;status;response;data)"];
+11->12 [label="?/config(ProtocolVerb;Host;Dest;Uri)"];
+12->13 [label="call_T103"];
+13->14 [label="return_T103"];
+14->15 [label="!Response(Protocol;Host;Dest;status;response;data)"];
+15->16 [label="?/(ProtocolVerb;Host;Dest;Uri)"];
+16->17 [label="call_T104"];
+17->18 [label="return_T104"];
+18->1 [label="return_T98"];
+}

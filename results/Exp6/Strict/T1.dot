@@ -1,0 +1,9 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+0->3 [label="?server(Protocol;Host;Dest;mode)"];
+3->4 [label="call_T29"];
+4->1 [label="return_T29"];
+}

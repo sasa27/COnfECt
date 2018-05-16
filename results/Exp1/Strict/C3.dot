@@ -1,0 +1,22 @@
+digraph G {
+  0 [label="INITIAL",shape=box];
+  1 [label="TERMINAL",shape=diamond];
+  3 [label="3"];
+  4 [label="4"];
+  5 [label="5"];
+  6 [label="6"];
+  7 [label="7"];
+  8 [label="8"];
+  9 [label="9"];
+  10 [label="10"];
+0->3  [label="call_C3"];
+3->7 [label="?/login(ProtocolVerb;Host;Dest;Uri)"];
+3->4 [label="?/login(ProtocolVerb;Host;Dest;Uri)"];
+4->5 [label="!Response(Protocol;Host;Dest;status;response;data)"];
+5->6 [label="?/favicon.ico(ProtocolVerb;Host;Dest;Uri)"];
+6->3 [label="?/favicon.ico(ProtocolVerb;Host;Dest;Uri)"];
+7->8 [label="!Response(Protocol;Host;Dest;status;response;data)"];
+8->9  [label="call_C4"];
+9->10  [label="return_C4"];
+10->1  [label="return_C3"];
+}

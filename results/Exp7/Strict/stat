@@ -1,0 +1,349 @@
+181 trace files in Strace, and 173 dot file generated
+
+COnfECt/hideCall1.dot :3 states, and 2 transitions
+3 states in total and 2 transitions
+COnfECt/hideCall2.dot :68 states, and 110 transitions
+71 states in total and 112 transitions
+COnfECt/hideCall3.dot :5 states, and 6 transitions
+76 states in total and 118 transitions
+COnfECt/hideCall4.dot :3 states, and 2 transitions
+79 states in total and 120 transitions
+COnfECt/hideCall5.dot :3 states, and 2 transitions
+82 states in total and 122 transitions
+COnfECt/hideCall6.dot :3 states, and 2 transitions
+85 states in total and 124 transitions
+COnfECt/hideCall7.dot :3 states, and 2 transitions
+88 states in total and 126 transitions
+COnfECt/hideCall8.dot :3 states, and 2 transitions
+91 states in total and 128 transitions
+COnfECt/hideCall9.dot :2 states, and 1 transitions
+93 states in total and 129 transitions
+COnfECt/hideCall10.dot :7 states, and 7 transitions
+100 states in total and 136 transitions
+COnfECt/hideCall11.dot :4 states, and 3 transitions
+104 states in total and 139 transitions
+COnfECt/hideCall12.dot :3 states, and 2 transitions
+107 states in total and 141 transitions
+COnfECt/hideCall13.dot :3 states, and 2 transitions
+110 states in total and 143 transitions
+COnfECt/hideCall14.dot :3 states, and 2 transitions
+113 states in total and 145 transitions
+COnfECt/hideCall15.dot :3 states, and 2 transitions
+116 states in total and 147 transitions
+COnfECt/hideCall16.dot :2 states, and 1 transitions
+118 states in total and 148 transitions
+COnfECt/hideCall17.dot :3 states, and 2 transitions
+121 states in total and 150 transitions
+COnfECt/hideCall18.dot :3 states, and 2 transitions
+124 states in total and 152 transitions
+COnfECt/hideCall19.dot :3 states, and 2 transitions
+127 states in total and 154 transitions
+COnfECt/hideCall20.dot :3 states, and 2 transitions
+130 states in total and 156 transitions
+COnfECt/hideCall21.dot :3 states, and 2 transitions
+133 states in total and 158 transitions
+COnfECt/hideCall22.dot :3 states, and 2 transitions
+136 states in total and 160 transitions
+COnfECt/hideCall23.dot :3 states, and 2 transitions
+139 states in total and 162 transitions
+COnfECt/hideCall24.dot :3 states, and 2 transitions
+142 states in total and 164 transitions
+COnfECt/hideCall25.dot :3 states, and 2 transitions
+145 states in total and 166 transitions
+COnfECt/hideCall26.dot :15 states, and 17 transitions
+160 states in total and 183 transitions
+COnfECt/hideCall27.dot :3 states, and 2 transitions
+163 states in total and 185 transitions
+COnfECt/hideCall28.dot :3 states, and 2 transitions
+166 states in total and 187 transitions
+COnfECt/hideCall29.dot :3 states, and 2 transitions
+169 states in total and 189 transitions
+COnfECt/hideCall30.dot :3 states, and 2 transitions
+172 states in total and 191 transitions
+COnfECt/hideCall31.dot :3 states, and 2 transitions
+175 states in total and 193 transitions
+COnfECt/hideCall32.dot :3 states, and 2 transitions
+178 states in total and 195 transitions
+COnfECt/hideCall33.dot :3 states, and 2 transitions
+181 states in total and 197 transitions
+COnfECt/hideCall34.dot :3 states, and 2 transitions
+184 states in total and 199 transitions
+COnfECt/hideCall35.dot :3 states, and 2 transitions
+187 states in total and 201 transitions
+COnfECt/hideCall36.dot :3 states, and 2 transitions
+190 states in total and 203 transitions
+COnfECt/hideCall37.dot :3 states, and 2 transitions
+193 states in total and 205 transitions
+COnfECt/hideCall38.dot :3 states, and 2 transitions
+196 states in total and 207 transitions
+COnfECt/hideCall39.dot :16 states, and 17 transitions
+212 states in total and 224 transitions
+COnfECt/hideCall40.dot :4 states, and 3 transitions
+216 states in total and 227 transitions
+COnfECt/hideCall41.dot :3 states, and 2 transitions
+219 states in total and 229 transitions
+COnfECt/hideCall42.dot :3 states, and 2 transitions
+222 states in total and 231 transitions
+COnfECt/hideCall43.dot :2 states, and 1 transitions
+224 states in total and 232 transitions
+COnfECt/hideCall44.dot :3 states, and 2 transitions
+227 states in total and 234 transitions
+COnfECt/hideCall45.dot :3 states, and 2 transitions
+230 states in total and 236 transitions
+COnfECt/hideCall46.dot :3 states, and 2 transitions
+233 states in total and 238 transitions
+COnfECt/hideCall47.dot :2 states, and 1 transitions
+235 states in total and 239 transitions
+COnfECt/hideCall48.dot :3 states, and 2 transitions
+238 states in total and 241 transitions
+COnfECt/hideCall49.dot :3 states, and 2 transitions
+241 states in total and 243 transitions
+COnfECt/hideCall50.dot :3 states, and 2 transitions
+244 states in total and 245 transitions
+COnfECt/hideCall51.dot :3 states, and 2 transitions
+247 states in total and 247 transitions
+COnfECt/hideCall52.dot :3 states, and 2 transitions
+250 states in total and 249 transitions
+COnfECt/hideCall53.dot :3 states, and 2 transitions
+253 states in total and 251 transitions
+COnfECt/hideCall54.dot :3 states, and 2 transitions
+256 states in total and 253 transitions
+COnfECt/hideCall55.dot :3 states, and 2 transitions
+259 states in total and 255 transitions
+COnfECt/hideCall56.dot :3 states, and 2 transitions
+262 states in total and 257 transitions
+COnfECt/hideCall57.dot :3 states, and 2 transitions
+265 states in total and 259 transitions
+COnfECt/hideCall58.dot :3 states, and 2 transitions
+268 states in total and 261 transitions
+COnfECt/hideCall59.dot :3 states, and 2 transitions
+271 states in total and 263 transitions
+COnfECt/hideCall60.dot :3 states, and 2 transitions
+274 states in total and 265 transitions
+COnfECt/hideCall61.dot :3 states, and 2 transitions
+277 states in total and 267 transitions
+COnfECt/hideCall62.dot :3 states, and 2 transitions
+280 states in total and 269 transitions
+COnfECt/hideCall63.dot :3 states, and 2 transitions
+283 states in total and 271 transitions
+COnfECt/hideCall64.dot :3 states, and 2 transitions
+286 states in total and 273 transitions
+COnfECt/hideCall65.dot :3 states, and 2 transitions
+289 states in total and 275 transitions
+COnfECt/hideCall66.dot :3 states, and 2 transitions
+292 states in total and 277 transitions
+COnfECt/hideCall67.dot :3 states, and 2 transitions
+295 states in total and 279 transitions
+COnfECt/hideCall68.dot :3 states, and 2 transitions
+298 states in total and 281 transitions
+COnfECt/hideCall69.dot :3 states, and 2 transitions
+301 states in total and 283 transitions
+COnfECt/hideCall70.dot :4 states, and 3 transitions
+305 states in total and 286 transitions
+COnfECt/hideCall71.dot :3 states, and 2 transitions
+308 states in total and 288 transitions
+COnfECt/hideCall72.dot :3 states, and 2 transitions
+311 states in total and 290 transitions
+COnfECt/hideCall73.dot :3 states, and 2 transitions
+314 states in total and 292 transitions
+COnfECt/hideCall74.dot :3 states, and 2 transitions
+317 states in total and 294 transitions
+COnfECt/hideCall75.dot :2 states, and 1 transitions
+319 states in total and 295 transitions
+COnfECt/hideCall76.dot :3 states, and 2 transitions
+322 states in total and 297 transitions
+COnfECt/hideCall77.dot :4 states, and 3 transitions
+326 states in total and 300 transitions
+COnfECt/hideCall78.dot :3 states, and 2 transitions
+329 states in total and 302 transitions
+COnfECt/hideCall79.dot :3 states, and 2 transitions
+332 states in total and 304 transitions
+COnfECt/hideCall80.dot :2 states, and 1 transitions
+334 states in total and 305 transitions
+COnfECt/hideCall81.dot :3 states, and 2 transitions
+337 states in total and 307 transitions
+COnfECt/hideCall82.dot :3 states, and 2 transitions
+340 states in total and 309 transitions
+COnfECt/hideCall83.dot :3 states, and 2 transitions
+343 states in total and 311 transitions
+COnfECt/hideCall84.dot :3 states, and 2 transitions
+346 states in total and 313 transitions
+COnfECt/hideCall85.dot :3 states, and 2 transitions
+349 states in total and 315 transitions
+COnfECt/hideCall86.dot :3 states, and 2 transitions
+352 states in total and 317 transitions
+COnfECt/hideCall87.dot :3 states, and 2 transitions
+355 states in total and 319 transitions
+COnfECt/hideCall88.dot :3 states, and 2 transitions
+358 states in total and 321 transitions
+COnfECt/hideCall89.dot :3 states, and 2 transitions
+361 states in total and 323 transitions
+COnfECt/hideCall90.dot :3 states, and 2 transitions
+364 states in total and 325 transitions
+COnfECt/hideCall91.dot :3 states, and 2 transitions
+367 states in total and 327 transitions
+COnfECt/hideCall92.dot :3 states, and 2 transitions
+370 states in total and 329 transitions
+COnfECt/hideCall93.dot :3 states, and 2 transitions
+373 states in total and 331 transitions
+COnfECt/hideCall94.dot :3 states, and 2 transitions
+376 states in total and 333 transitions
+COnfECt/hideCall95.dot :3 states, and 2 transitions
+379 states in total and 335 transitions
+COnfECt/hideCall96.dot :3 states, and 2 transitions
+382 states in total and 337 transitions
+COnfECt/hideCall97.dot :4 states, and 3 transitions
+386 states in total and 340 transitions
+COnfECt/hideCall98.dot :3 states, and 2 transitions
+389 states in total and 342 transitions
+COnfECt/hideCall99.dot :3 states, and 2 transitions
+392 states in total and 344 transitions
+COnfECt/hideCall100.dot :3 states, and 2 transitions
+395 states in total and 346 transitions
+COnfECt/hideCall101.dot :8 states, and 7 transitions
+403 states in total and 353 transitions
+COnfECt/hideCall102.dot :3 states, and 2 transitions
+406 states in total and 355 transitions
+COnfECt/hideCall103.dot :3 states, and 2 transitions
+409 states in total and 357 transitions
+COnfECt/hideCall104.dot :3 states, and 2 transitions
+412 states in total and 359 transitions
+COnfECt/hideCall105.dot :3 states, and 2 transitions
+415 states in total and 361 transitions
+COnfECt/hideCall106.dot :3 states, and 2 transitions
+418 states in total and 363 transitions
+COnfECt/hideCall107.dot :10 states, and 9 transitions
+428 states in total and 372 transitions
+COnfECt/hideCall108.dot :3 states, and 2 transitions
+431 states in total and 374 transitions
+COnfECt/hideCall109.dot :3 states, and 2 transitions
+434 states in total and 376 transitions
+COnfECt/hideCall110.dot :3 states, and 2 transitions
+437 states in total and 378 transitions
+COnfECt/hideCall111.dot :3 states, and 2 transitions
+440 states in total and 380 transitions
+COnfECt/hideCall112.dot :3 states, and 2 transitions
+443 states in total and 382 transitions
+COnfECt/hideCall113.dot :3 states, and 2 transitions
+446 states in total and 384 transitions
+COnfECt/hideCall114.dot :3 states, and 2 transitions
+449 states in total and 386 transitions
+COnfECt/hideCall115.dot :3 states, and 2 transitions
+452 states in total and 388 transitions
+COnfECt/hideCall116.dot :3 states, and 2 transitions
+455 states in total and 390 transitions
+COnfECt/hideCall117.dot :3 states, and 2 transitions
+458 states in total and 392 transitions
+COnfECt/hideCall118.dot :3 states, and 2 transitions
+461 states in total and 394 transitions
+COnfECt/hideCall119.dot :3 states, and 2 transitions
+464 states in total and 396 transitions
+COnfECt/hideCall120.dot :3 states, and 2 transitions
+467 states in total and 398 transitions
+COnfECt/hideCall121.dot :3 states, and 2 transitions
+470 states in total and 400 transitions
+COnfECt/hideCall122.dot :3 states, and 2 transitions
+473 states in total and 402 transitions
+COnfECt/hideCall123.dot :3 states, and 2 transitions
+476 states in total and 404 transitions
+COnfECt/hideCall124.dot :3 states, and 2 transitions
+479 states in total and 406 transitions
+COnfECt/hideCall125.dot :2 states, and 1 transitions
+481 states in total and 407 transitions
+COnfECt/hideCall126.dot :4 states, and 3 transitions
+485 states in total and 410 transitions
+COnfECt/hideCall127.dot :3 states, and 2 transitions
+488 states in total and 412 transitions
+COnfECt/hideCall128.dot :2 states, and 1 transitions
+490 states in total and 413 transitions
+COnfECt/hideCall129.dot :3 states, and 2 transitions
+493 states in total and 415 transitions
+COnfECt/hideCall130.dot :3 states, and 2 transitions
+496 states in total and 417 transitions
+COnfECt/hideCall131.dot :3 states, and 2 transitions
+499 states in total and 419 transitions
+COnfECt/hideCall132.dot :3 states, and 2 transitions
+502 states in total and 421 transitions
+COnfECt/hideCall133.dot :3 states, and 2 transitions
+505 states in total and 423 transitions
+COnfECt/hideCall134.dot :3 states, and 2 transitions
+508 states in total and 425 transitions
+COnfECt/hideCall135.dot :3 states, and 2 transitions
+511 states in total and 427 transitions
+COnfECt/hideCall136.dot :3 states, and 2 transitions
+514 states in total and 429 transitions
+COnfECt/hideCall137.dot :3 states, and 2 transitions
+517 states in total and 431 transitions
+COnfECt/hideCall138.dot :3 states, and 2 transitions
+520 states in total and 433 transitions
+COnfECt/hideCall139.dot :3 states, and 2 transitions
+523 states in total and 435 transitions
+COnfECt/hideCall140.dot :3 states, and 2 transitions
+526 states in total and 437 transitions
+COnfECt/hideCall141.dot :4 states, and 3 transitions
+530 states in total and 440 transitions
+COnfECt/hideCall142.dot :3 states, and 2 transitions
+533 states in total and 442 transitions
+COnfECt/hideCall143.dot :3 states, and 2 transitions
+536 states in total and 444 transitions
+COnfECt/hideCall144.dot :3 states, and 2 transitions
+539 states in total and 446 transitions
+COnfECt/hideCall145.dot :3 states, and 2 transitions
+542 states in total and 448 transitions
+COnfECt/hideCall146.dot :3 states, and 2 transitions
+545 states in total and 450 transitions
+COnfECt/hideCall147.dot :3 states, and 2 transitions
+548 states in total and 452 transitions
+COnfECt/hideCall148.dot :3 states, and 2 transitions
+551 states in total and 454 transitions
+COnfECt/hideCall149.dot :3 states, and 2 transitions
+554 states in total and 456 transitions
+COnfECt/hideCall150.dot :3 states, and 2 transitions
+557 states in total and 458 transitions
+COnfECt/hideCall151.dot :3 states, and 2 transitions
+560 states in total and 460 transitions
+COnfECt/hideCall152.dot :3 states, and 2 transitions
+563 states in total and 462 transitions
+COnfECt/hideCall153.dot :3 states, and 2 transitions
+566 states in total and 464 transitions
+COnfECt/hideCall154.dot :3 states, and 2 transitions
+569 states in total and 466 transitions
+COnfECt/hideCall155.dot :3 states, and 2 transitions
+572 states in total and 468 transitions
+COnfECt/hideCall156.dot :3 states, and 2 transitions
+575 states in total and 470 transitions
+COnfECt/hideCall157.dot :5 states, and 4 transitions
+580 states in total and 474 transitions
+COnfECt/hideCall158.dot :3 states, and 2 transitions
+583 states in total and 476 transitions
+COnfECt/hideCall159.dot :3 states, and 2 transitions
+586 states in total and 478 transitions
+COnfECt/hideCall160.dot :3 states, and 2 transitions
+589 states in total and 480 transitions
+COnfECt/hideCall161.dot :3 states, and 2 transitions
+592 states in total and 482 transitions
+COnfECt/hideCall162.dot :2 states, and 1 transitions
+594 states in total and 483 transitions
+COnfECt/hideCall163.dot :2 states, and 1 transitions
+596 states in total and 484 transitions
+COnfECt/hideCall164.dot :3 states, and 2 transitions
+599 states in total and 486 transitions
+COnfECt/hideCall165.dot :3 states, and 2 transitions
+602 states in total and 488 transitions
+COnfECt/hideCall166.dot :3 states, and 2 transitions
+605 states in total and 490 transitions
+COnfECt/hideCall167.dot :3 states, and 2 transitions
+608 states in total and 492 transitions
+COnfECt/hideCall168.dot :3 states, and 2 transitions
+611 states in total and 494 transitions
+COnfECt/hideCall169.dot :4 states, and 3 transitions
+615 states in total and 497 transitions
+COnfECt/hideCall170.dot :3 states, and 2 transitions
+618 states in total and 499 transitions
+COnfECt/hideCall171.dot :3 states, and 2 transitions
+621 states in total and 501 transitions
+COnfECt/hideCall172.dot :3 states, and 2 transitions
+624 states in total and 503 transitions
+COnfECt/hideCall173.dot :3 states, and 2 transitions
+627 states in total and 505 transitions
+627 states in total and 505 transitions

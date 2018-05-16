@@ -1,0 +1,12 @@
+?/tools(Protocol;Verb;Host;Dest;Uri)
+call_T65
+return_T65
+!Response(Protocol;Host;Dest;status;response;data)
+?/log(Protocol;Verb;Host;Dest;Uri)
+call_T72
+return_T72
+!Response(Protocol;Host;Dest;status;response;data)
+?/tools(Protocol;Verb;Host;Dest;Uri)
+!Response(Protocol;Host;Dest;status;response;data)
+call_T73
+return_T73

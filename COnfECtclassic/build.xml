@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="SynopticLTS">
+    <property environment="env"/>
+    <property name="src.link" value="../../Bureau/outils/synopticLTS/synoptic/src"/>
+    <property name="JRE_LIB" value="../../../../usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/bin for project [SynopticLTS]].libraryclasspath"/>
+    <path id="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/${util.synoptic.libdir}/junit-4.9b2.jar for project [SynopticLTS]].libraryclasspath"/>
+    <path id="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/${util.synoptic.libdir}/daikonizer.jar for project [SynopticLTS]].libraryclasspath"/>
+    <path id="SynopticLTS.classpath">
+        <pathelement location="bin/synoptic"/>
+        <pathelement location="${JRE_LIB}"/>
+        <path refid="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/bin for project [SynopticLTS]].libraryclasspath"/>
+        <path refid="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/${util.synoptic.libdir}/junit-4.9b2.jar for project [SynopticLTS]].libraryclasspath"/>
+        <path refid="Persisted container [/home/blot/Bureau/outils/synopticLTS/synoptic/${util.synoptic.libdir}/daikonizer.jar for project [SynopticLTS]].libraryclasspath"/>
+        <pathelement location="junit-4.9b2.jar/smile-core-1.5.1.jar"/>
+        <pathelement location="junit-4.9b2.jar/daikon.jar"/>
+        <pathelement location="junit-4.9b2.jar/org.json.simple-0.3-incubating.jar"/>
+        <pathelement location="junit-4.9b2.jar/plume.jar"/>
+        <pathelement location="junit-4.9b2.jar/slf4j-api-1.7.25.jar"/>
+        <pathelement location="junit-4.9b2.jar/smile-data-1.5.1.jar"/>
+        <pathelement location="junit-4.9b2.jar/smile-graph-1.5.1.jar"/>
+        <pathelement location="junit-4.9b2.jar/smile-math-1.5.1.jar"/>
+        <pathelement location="daikonizer.jar"/>
+    </path>
+    <path id="run.KTailsMain.classpath">
+        <pathelement location="${JRE_LIB}"/>
+        <path refid="SynopticLTS.classpath"/>
+    </path>
+    <path id="run.KTailsMain.bootclasspath"/>
+    <target name="init">
+        <mkdir dir="bin/synoptic"/>
+        <copy includeemptydirs="false" todir="bin/synoptic">
+            <fileset dir="${src.link}">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin/synoptic"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/synoptic" includeantruntime="false" source="${source}" target="${target}">
+            <src path="${src.link}"/>
+            <classpath refid="SynopticLTS.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="KTailsMain">
+        <java classname="synoptic.main.KTailsMain" dir="../../Bureau/outils/synopticLTS" failonerror="true" fork="yes">
+            <arg line="1.log 2.log 3.log 4.log 5.log 6.log 7.log 8.log 9.log 10.log 11.log"/>
+            <classpath refid="run.KTailsMain.classpath"/>
+            <bootclasspath>
+                <path refid="run.KTailsMain.bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+</project>
