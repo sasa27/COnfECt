@@ -21,18 +21,54 @@ This *Correlation Coefficient* is used to separate each trace into many traces, 
 Example:
 ```
 Trace		
-/devices /json.htm(idx:=115,svalue:=15.00) Response(status:=200) Response(status:=200,data:=[1]) 
-/json.htm(idx:=115,svalue:=16.00) Response(status:=200) /devices Response(status:=200,data:=[1]) 
-/hardware Response(status:=200,data:=[2]) /config /json.htm(idx:=0,switchcmd:=On) Response(
-status:=200) Response(status:=200,data:=[2]) /tools Response(status:=200,data:=[3])
+/devices 
+/json.htm(idx:=115,svalue:=15.00) 
+Response(status:=200) 
+Response(status:=200,data:=[1]) 
+/json.htm(idx:=115,svalue:=16.00) 
+Response(status:=200) 
+/devices 
+Response(status:=200,data:=[1]) 
+/hardware 
+Response(status:=200,data:=[2]) 
+/config 
+/json.htm(idx:=0,switchcmd:=On) 
+Response(status:=200) 
+Response(status:=200,data:=[2]) 
+/tools 
+Response(status:=200,data:=[3])
 
 STraces = {
-T1 {/devices call_C2 return_C2 Response(status:=200,data:=[1]) call_C3 return_C3 /devices 
-	Response(status:=200,data:=[1]) /hardware Response(status:=200,data:=[2]) /config call_C4 
-	return_C4 Response(status:=200,data:=[2]) /tools Response(status:=200,data:=[3])}
-T2 {call_C2 /json.htm(idx:=115,svalue:=15.00) Response(status:=200) return_C2}
-T3 {call_C3 /json.htm(idx:=115,svalue:=16.00) Response(status:=200) return_C3}
-T4 {call_C4 /json.htm(idx:=0,switchcmd:=On) Response(status:=200) return_C4} }
+T1 {
+/devices 
+call_C2 return_C2 
+Response(status:=200,data:=[1]) 
+call_C3 return_C3 
+/devices 
+Response(status:=200,data:=[1]) 
+/hardware 
+Response(status:=200,data:=[2]) 
+/config 
+call_C4 return_C4 
+Response(status:=200,data:=[2]) 
+/tools 
+Response(status:=200,data:=[3])
+}
+
+T2 {call_C2 
+/json.htm(idx:=115,svalue:=15.00) 
+Response(status:=200) 
+return_C2}
+
+T3 {call_C3 
+/json.htm(idx:=115,svalue:=16.00) 
+Response(status:=200) 
+return_C3}
+
+T4 {call_C4 
+/json.htm(idx:=0,switchcmd:=On) 
+Response(status:=200) 
+return_C4}}
 ```
 
 
