@@ -3,13 +3,13 @@ This is the first implementation of the COnfECt method, used for preliminary tes
 
 ## Method
 
-COnfECt is a model inference method that infer LTSs (Labelled Transition Systems) for each component of the system from execution traces. 
-It is based on KTails, a passive model learning method that work in two steps:
+COnfECt is a model inference method that infers LTSs (Labelled Transition Systems) for each component of the system from execution traces. 
+It is based on kTail, a passive model learning method that works in two steps:
 
 - First, it constructs a tree from the traces, with each branch of the tree corresponding to a trace, and each event to an edge.
 - Then, it merges all states of this tree that have the same k-future, i.e. the states that have the same future of length k.
 
-The method COnfECt add two steps to KTails: *Trace Analysis & Extraction*, and *LTS synchronisation*.
+The method COnfECt adds two steps to kTail: *Trace Analysis & Extraction*, and *LTS synchronisation*.
 
 ### Trace Analysis & Extraction
 
@@ -43,16 +43,16 @@ Each trace obtained with this step will produce a LTS with the first step of KTa
 The goal of this step is to join LTSs that contain similar events, and model behaviours of the same component.
 
 Three strategies are implemented:
-- the **Strict** strategy, where we want limit the over-generalisation. we do not join LTSs, and we cannot repetitively call an other component.
+- the **Strict** strategy : we want limit the over-generalisation. We do not join LTSs, and we cannot repetitively call an other component.
 ![Alt text](figures/Strict.jpg "Example with Strict synchronisation")
 
-- the **Weak** strategy, where we want to reduce the number of components. We join LTSs, and allow repetitive call of an other component.
+- the **Weak** strategy : we want to reduce the number of components. We join LTSs, and allow repetitive call of an other component.
 ![Alt text](figures/Weak.jpg "Example with Weak synchronisation")
 
-- the **Strong** strategy, where we obtained a more general model. We join LTSs, and each LTS can call any other LTS anytime.
+- the **Strong** strategy : we obtained a more general model. We join LTSs, and each LTS can call any other LTS anytime.
 ![Alt text](figures/Strong.jpg "Example with Strong synchronisation")
 
-Then the models are generalised with the second step of KTails, to obtain the final LTSs.
+Then the models are generalised with the second step of kTail, to obtain the final LTSs.
 
 ## Contents
 **traces/** contains the different test cases (*Exp1-Exp7*, and test cases for the time execution).
@@ -63,7 +63,7 @@ Then the models are generalised with the second step of KTails, to obtain the fi
 
 ## Usage
 
-Put all your traces in the folder **COnfECt/traces**. If the folder **COnfECt/COnfECt** does not exist, make it. It have to be empty.
+Put all your traces in the folder **COnfECt/traces**. If the folder **COnfECt/COnfECt** does not exist, make it. It has to be empty.
 
 Go into the **COnfECt/** folder and execute the script **exec.sh** with the synchronisation strategy as arguments (```strict```, ```weak```, or ```strong```):
 
